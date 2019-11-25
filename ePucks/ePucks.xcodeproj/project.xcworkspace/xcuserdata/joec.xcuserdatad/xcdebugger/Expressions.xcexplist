@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "printResults(std::__1::map&lt;boost::uuids::uuid, Agent*, std::__1::less&lt;boost::uuids::uuid&gt;, std::__1::allocator&lt;std::__1::pair&lt;boost::uuids::uuid const, Agent*&gt; &gt; &gt;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):main.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "comparePairs(std::__1::pair&lt;int, std::__1::pair&lt;boost::uuids::uuid, boost::uuids::uuid&gt; &gt;, std::__1::pair&lt;int, std::__1::pair&lt;boost::uuids::uuid, boost::uuids::uuid&gt; &gt;):playerSup.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "doGames(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, int, std::__1::map&lt;boost::uuids::uuid, Agent*, std::__1::less&lt;boost::uuids::uuid&gt;, std::__1::allocator&lt;std::__1::pair&lt;boost::uuids::uuid const, Agent*&gt; &gt; &gt;, std::__1::vector&lt;ePuckPosition*, std::__1::allocator&lt;ePuckPosition*&gt; &gt;, int, bool):playerSup.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "getArguments(int, char**, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, int&amp;, int&amp;, int&amp;, int (&amp;) [6], int (&amp;) [9], int&amp;, double&amp;, double&amp;, double&amp;, double&amp;, double&amp;, bool&amp;, bool&amp;):support.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Agent::addDistance(int, int):Agent.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "prevXY">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "getArguments(int, char**, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;&amp;, int&amp;, int&amp;, int (&amp;) [6], int (&amp;) [9], int&amp;, double&amp;, double&amp;, double&amp;, double&amp;, double&amp;, bool&amp;, bool&amp;):support.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

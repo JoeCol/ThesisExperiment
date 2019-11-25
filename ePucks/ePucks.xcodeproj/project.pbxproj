@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D995E2B51DC1F4060026766E /* Agent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2A51DC1F4060026766E /* Agent.cpp */; };
+		D995E2B61DC1F4060026766E /* EmotionalAgent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2A71DC1F4060026766E /* EmotionalAgent.cpp */; };
+		D995E2B71DC1F4060026766E /* JossAgent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2A91DC1F4060026766E /* JossAgent.cpp */; };
+		D995E2B81DC1F4060026766E /* MendaciousAgent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2AB1DC1F4060026766E /* MendaciousAgent.cpp */; };
+		D995E2B91DC1F4060026766E /* RanAgent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2AD1DC1F4060026766E /* RanAgent.cpp */; };
+		D995E2BA1DC1F4060026766E /* TesterAgent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2AF1DC1F4060026766E /* TesterAgent.cpp */; };
+		D995E2BB1DC1F4060026766E /* TFTAgent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2B11DC1F4060026766E /* TFTAgent.cpp */; };
+		D995E2BC1DC1F4060026766E /* VeraciousAgent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2B31DC1F4060026766E /* VeraciousAgent.cpp */; };
+		D995E2C11DC1F4190026766E /* epuck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2BD1DC1F4190026766E /* epuck.cpp */; };
+		D995E2C21DC1F4190026766E /* ePuckPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D995E2BF1DC1F4190026766E /* ePuckPosition.cpp */; };
+		D9B9CC711DB65907005C1CB7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9B9CC6C1DB65907005C1CB7 /* main.cpp */; };
+		D9B9CC721DB65907005C1CB7 /* playerSup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9B9CC6D1DB65907005C1CB7 /* playerSup.cpp */; };
+		D9B9CC731DB65907005C1CB7 /* support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9B9CC6F1DB65907005C1CB7 /* support.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9A256E41DB6178E009E6ECA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D995E2A51DC1F4060026766E /* Agent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Agent.cpp; path = agents/Agent.cpp; sourceTree = "<group>"; };
+		D995E2A61DC1F4060026766E /* Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Agent.h; path = agents/Agent.h; sourceTree = "<group>"; };
+		D995E2A71DC1F4060026766E /* EmotionalAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmotionalAgent.cpp; path = agents/EmotionalAgent.cpp; sourceTree = "<group>"; };
+		D995E2A81DC1F4060026766E /* EmotionalAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmotionalAgent.h; path = agents/EmotionalAgent.h; sourceTree = "<group>"; };
+		D995E2A91DC1F4060026766E /* JossAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JossAgent.cpp; path = agents/JossAgent.cpp; sourceTree = "<group>"; };
+		D995E2AA1DC1F4060026766E /* JossAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JossAgent.h; path = agents/JossAgent.h; sourceTree = "<group>"; };
+		D995E2AB1DC1F4060026766E /* MendaciousAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MendaciousAgent.cpp; path = agents/MendaciousAgent.cpp; sourceTree = "<group>"; };
+		D995E2AC1DC1F4060026766E /* MendaciousAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MendaciousAgent.h; path = agents/MendaciousAgent.h; sourceTree = "<group>"; };
+		D995E2AD1DC1F4060026766E /* RanAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RanAgent.cpp; path = agents/RanAgent.cpp; sourceTree = "<group>"; };
+		D995E2AE1DC1F4060026766E /* RanAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RanAgent.h; path = agents/RanAgent.h; sourceTree = "<group>"; };
+		D995E2AF1DC1F4060026766E /* TesterAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TesterAgent.cpp; path = agents/TesterAgent.cpp; sourceTree = "<group>"; };
+		D995E2B01DC1F4060026766E /* TesterAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TesterAgent.h; path = agents/TesterAgent.h; sourceTree = "<group>"; };
+		D995E2B11DC1F4060026766E /* TFTAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TFTAgent.cpp; path = agents/TFTAgent.cpp; sourceTree = "<group>"; };
+		D995E2B21DC1F4060026766E /* TFTAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTAgent.h; path = agents/TFTAgent.h; sourceTree = "<group>"; };
+		D995E2B31DC1F4060026766E /* VeraciousAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VeraciousAgent.cpp; path = agents/VeraciousAgent.cpp; sourceTree = "<group>"; };
+		D995E2B41DC1F4060026766E /* VeraciousAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VeraciousAgent.h; path = agents/VeraciousAgent.h; sourceTree = "<group>"; };
+		D995E2BD1DC1F4190026766E /* epuck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = epuck.cpp; path = ePuck/epuck.cpp; sourceTree = "<group>"; };
+		D995E2BE1DC1F4190026766E /* epuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = epuck.h; path = ePuck/epuck.h; sourceTree = "<group>"; };
+		D995E2BF1DC1F4190026766E /* ePuckPosition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ePuckPosition.cpp; path = ePuck/ePuckPosition.cpp; sourceTree = "<group>"; };
+		D995E2C01DC1F4190026766E /* ePuckPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ePuckPosition.h; path = ePuck/ePuckPosition.h; sourceTree = "<group>"; };
+		D9A256E61DB6178E009E6ECA /* ePucks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ePucks; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B9CC6A1DB65907005C1CB7 /* agents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = agents; sourceTree = "<group>"; };
+		D9B9CC6B1DB65907005C1CB7 /* ePuck */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ePuck; sourceTree = "<group>"; };
+		D9B9CC6C1DB65907005C1CB7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D9B9CC6D1DB65907005C1CB7 /* playerSup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = playerSup.cpp; sourceTree = "<group>"; };
+		D9B9CC6E1DB65907005C1CB7 /* playerSup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playerSup.h; sourceTree = "<group>"; };
+		D9B9CC6F1DB65907005C1CB7 /* support.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = support.cpp; sourceTree = "<group>"; };
+		D9B9CC701DB65907005C1CB7 /* support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = support.h; sourceTree = "<group>"; };
+		D9B9CC751DB65E9B005C1CB7 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../../../opt/local/lib; sourceTree = "<group>"; };
+		D9B9CC771DB65F0F005C1CB7 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../../../../usr/local/lib; sourceTree = "<group>"; };
+		D9B9CC791DB65F40005C1CB7 /* libpng.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng.dylib; path = ../../../../usr/local/lib/libpng.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9A256E31DB6178E009E6ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D995E2A31DC1F3C70026766E /* ePuck */ = {
+			isa = PBXGroup;
+			children = (
+				D995E2BD1DC1F4190026766E /* epuck.cpp */,
+				D995E2BE1DC1F4190026766E /* epuck.h */,
+				D995E2BF1DC1F4190026766E /* ePuckPosition.cpp */,
+				D995E2C01DC1F4190026766E /* ePuckPosition.h */,
+				D9B9CC6B1DB65907005C1CB7 /* ePuck */,
+			);
+			name = ePuck;
+			sourceTree = "<group>";
+		};
+		D995E2A41DC1F3DA0026766E /* agents */ = {
+			isa = PBXGroup;
+			children = (
+				D995E2A51DC1F4060026766E /* Agent.cpp */,
+				D995E2A61DC1F4060026766E /* Agent.h */,
+				D995E2A71DC1F4060026766E /* EmotionalAgent.cpp */,
+				D995E2A81DC1F4060026766E /* EmotionalAgent.h */,
+				D995E2A91DC1F4060026766E /* JossAgent.cpp */,
+				D995E2AA1DC1F4060026766E /* JossAgent.h */,
+				D995E2AB1DC1F4060026766E /* MendaciousAgent.cpp */,
+				D995E2AC1DC1F4060026766E /* MendaciousAgent.h */,
+				D995E2AD1DC1F4060026766E /* RanAgent.cpp */,
+				D995E2AE1DC1F4060026766E /* RanAgent.h */,
+				D995E2AF1DC1F4060026766E /* TesterAgent.cpp */,
+				D995E2B01DC1F4060026766E /* TesterAgent.h */,
+				D995E2B11DC1F4060026766E /* TFTAgent.cpp */,
+				D995E2B21DC1F4060026766E /* TFTAgent.h */,
+				D995E2B31DC1F4060026766E /* VeraciousAgent.cpp */,
+				D995E2B41DC1F4060026766E /* VeraciousAgent.h */,
+				D9B9CC6A1DB65907005C1CB7 /* agents */,
+			);
+			name = agents;
+			sourceTree = "<group>";
+		};
+		D9A256DD1DB6178E009E6ECA = {
+			isa = PBXGroup;
+			children = (
+				D9A256E81DB6178E009E6ECA /* ePucks */,
+				D9A256E71DB6178E009E6ECA /* Products */,
+				D9B9CC741DB65E9B005C1CB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A256E71DB6178E009E6ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A256E61DB6178E009E6ECA /* ePucks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A256E81DB6178E009E6ECA /* ePucks */ = {
+			isa = PBXGroup;
+			children = (
+				D995E2A41DC1F3DA0026766E /* agents */,
+				D995E2A31DC1F3C70026766E /* ePuck */,
+				D9B9CC6C1DB65907005C1CB7 /* main.cpp */,
+				D9B9CC6D1DB65907005C1CB7 /* playerSup.cpp */,
+				D9B9CC6E1DB65907005C1CB7 /* playerSup.h */,
+				D9B9CC6F1DB65907005C1CB7 /* support.cpp */,
+				D9B9CC701DB65907005C1CB7 /* support.h */,
+			);
+			path = ePucks;
+			sourceTree = "<group>";
+		};
+		D9B9CC741DB65E9B005C1CB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B9CC791DB65F40005C1CB7 /* libpng.dylib */,
+				D9B9CC771DB65F0F005C1CB7 /* lib */,
+				D9B9CC751DB65E9B005C1CB7 /* lib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9A256E51DB6178E009E6ECA /* ePucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A256ED1DB6178E009E6ECA /* Build configuration list for PBXNativeTarget "ePucks" */;
+			buildPhases = (
+				D9A256E21DB6178E009E6ECA /* Sources */,
+				D9A256E31DB6178E009E6ECA /* Frameworks */,
+				D9A256E41DB6178E009E6ECA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePucks;
+			productName = ePucks;
+			productReference = D9A256E61DB6178E009E6ECA /* ePucks */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9A256DE1DB6178E009E6ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Joe Collenette";
+				TargetAttributes = {
+					D9A256E51DB6178E009E6ECA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D9A256E11DB6178E009E6ECA /* Build configuration list for PBXProject "ePucks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9A256DD1DB6178E009E6ECA;
+			productRefGroup = D9A256E71DB6178E009E6ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9A256E51DB6178E009E6ECA /* ePucks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9A256E21DB6178E009E6ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D995E2BC1DC1F4060026766E /* VeraciousAgent.cpp in Sources */,
+				D9B9CC731DB65907005C1CB7 /* support.cpp in Sources */,
+				D995E2C11DC1F4190026766E /* epuck.cpp in Sources */,
+				D995E2B51DC1F4060026766E /* Agent.cpp in Sources */,
+				D9B9CC711DB65907005C1CB7 /* main.cpp in Sources */,
+				D9B9CC721DB65907005C1CB7 /* playerSup.cpp in Sources */,
+				D995E2C21DC1F4190026766E /* ePuckPosition.cpp in Sources */,
+				D995E2B71DC1F4060026766E /* JossAgent.cpp in Sources */,
+				D995E2B91DC1F4060026766E /* RanAgent.cpp in Sources */,
+				D995E2B61DC1F4060026766E /* EmotionalAgent.cpp in Sources */,
+				D995E2BA1DC1F4060026766E /* TesterAgent.cpp in Sources */,
+				D995E2BB1DC1F4060026766E /* TFTAgent.cpp in Sources */,
+				D995E2B81DC1F4060026766E /* MendaciousAgent.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D9A256EB1DB6178E009E6ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9A256EC1DB6178E009E6ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9A256EE1DB6178E009E6ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-I/usr/local/include/",
+					"-I/opt/local/include/",
+					"-v",
+					"-I/Applications/MATLAB_R2016b.app/extern/include/",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib/",
+					"-L/opt/local/lib/",
+					"-lpng",
+					"-lboost_system-mt",
+					"-lboost_filesystem-mt",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9A256EF1DB6178E009E6ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-I/usr/local/include/",
+					"-I/opt/local/include/",
+					"-v",
+					"-I/Applications/MATLAB_R2016b.app/extern/include/",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib/",
+					"-L/opt/local/lib/",
+					"-lpng",
+					"-lboost_system-mt",
+					"-lboost_filesystem-mt",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9A256E11DB6178E009E6ECA /* Build configuration list for PBXProject "ePucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A256EB1DB6178E009E6ECA /* Debug */,
+				D9A256EC1DB6178E009E6ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A256ED1DB6178E009E6ECA /* Build configuration list for PBXNativeTarget "ePucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A256EE1DB6178E009E6ECA /* Debug */,
+				D9A256EF1DB6178E009E6ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9A256DE1DB6178E009E6ECA /* Project object */;
+}
